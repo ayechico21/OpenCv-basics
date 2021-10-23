@@ -3,7 +3,7 @@ import cv2
 '''
 Shi-Tomasi corner detector 
 '''
-img = cv2.imread('assests\chessboard.png')
+img = cv2.imread('assets\\chessboard.png')
 img = cv2.resize(img, (0, 0), fx=.5, fy=.5)
 cv2.imshow('img', img)
 # Greyscale version of feed

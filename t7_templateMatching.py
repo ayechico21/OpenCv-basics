@@ -1,9 +1,9 @@
 import numpy as np
 import cv2
 
-img = cv2.imread('assests\\soccer.jpg', 0)
+img = cv2.imread('assets\\soccer.jpg', 0)
 img = cv2.resize(img, (0, 0), fx=.7, fy=.7)
-template = cv2.imread('assests\\ball.png', 0)
+template = cv2.imread('assets\\ball.png', 0)
 template = cv2.resize(template, (0, 0), fx=.7, fy=.7)
 height, width = template.shape
 
